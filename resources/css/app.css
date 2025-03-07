@@ -1,4 +1,19 @@
+@import './colors.css';
 * {
     padding:0;
     margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;   
+}
+
+ body,#app{
+    display: flex;
+    flex-direction: column;
+}
+
+#app{
+    height: 100%;
+    width: 100%;       
 }

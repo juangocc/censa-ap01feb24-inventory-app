@@ -1,0 +1,16 @@
+.button{
+    padding: .25rem .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.button-primary{
+    border-color: var(--color-primary, initial);
+    background-color: var(--color-primary, initial);
+    color: var(--color-white, initial);    
+}
+
+.button-secondary{
+    border-color: var(--color-secondary, initial);
+    background-color: var(--color-secondary, initial);
+    color: var(--color-white, initial);    
+}
